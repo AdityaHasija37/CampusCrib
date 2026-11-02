@@ -1,0 +1,6 @@
+# Copy to campuscrib.properties (next to where you run the app) to use MySQL.
+# Without this file CampusCrib runs on an embedded demo database in ~/.campuscrib.
+# Environment variables CAMPUSCRIB_DB_URL / _USER / _PASSWORD override these.
+db.url=jdbc:mysql://localhost:3306/campuscrib
+db.user=campuscrib
+db.password=change-me

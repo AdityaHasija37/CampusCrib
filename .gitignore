@@ -1,0 +1,11 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+.DS_Store
+# Local database settings (copy campuscrib.properties.example)
+campuscrib.properties
+*.mv.db
+*.trace.db
